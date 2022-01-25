@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import {SearchIcon} from '@heroicons/react/solid'
 
 
 function Header() {
@@ -15,8 +16,9 @@ function Header() {
         </div>
 
         {/*Middle*/}
-        <div>
+        <div className='flex items-center border-2 rounded-full py-2'>
             <input type="text" placeholder='Start your search'/>
+            <SearchIcon className="hidden md:inline-flex h-8 bg-red-400 text-white rounded-full p-2 cursor-pointer"/>
         </div>
 
         {/*Right*/}
