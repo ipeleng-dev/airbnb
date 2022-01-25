@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import {GlobeAltIcon, MenuIcon, SearchIcon, UserCircleIcon} from '@heroicons/react/solid'
 
