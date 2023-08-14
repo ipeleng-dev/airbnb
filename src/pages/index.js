@@ -5,6 +5,7 @@ import Banner from "../../components/Banner";
 import SmallCard from "../../components/SmallCard";
 import MediumCard from "../../components/MediumCard";
 import LargeCard from "../../components/LargeCard";
+import Footer from "../../components/Footer";
 
 export const getStaticProps = async ()=>{
 
@@ -64,6 +65,7 @@ export default function Home({exploreData, cardsData}) {
                 buttonText='Get Inspired'
             />
         </main>
+      <Footer/>
     </div>
   );
 }
