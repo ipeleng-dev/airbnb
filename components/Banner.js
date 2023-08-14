@@ -2,8 +2,15 @@ import Image from "next/image";
 
 function Banner(){
     return(
-        <div>
-            <Image src='https://links.papareact.com/0fm' alt='banner image' layout='fill'/>
+        <div className='relative h-[300px] sm:h-[400px] lg-[500px] xl:h-[600px] 2xl:h-[700px]'>
+            <Image src='https://links.papareact.com/0fm' alt='banner image'
+                   layout='fill'
+                   objectFit='cover'
+            />
+
+            <div>
+                <p>Not sure where to go? Perfect.</p>
+            </div>
         </div>
     )
 }
